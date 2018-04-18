@@ -1,0 +1,12 @@
+create table auto_make(
+makeorder   INT,
+app_name   CHAR(100) NOT NULL,
+proc_name  CHAR(100) NOT NULL,
+proc_dir   CHAR(255) NOT NULL,
+make_status INT,
+make_clean  CHAR(50) NOT NULL,
+make  CHAR(50) NOT NULL,
+make_install  CHAR(50) NOT NULL,
+check_dir CHAR(255) NOT NULL,
+depart  CHAR(50) NOT NULL
+ );
